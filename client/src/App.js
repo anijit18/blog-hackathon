@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from './pages/Home';
+import LoginPage from './pages/Login';
+import RegisterPage from './pages/Register';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hey we building something new</h2>
-      lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. <br />
-      <img src={logo} className="App-logo" alt="logo" />
-    </div>
+   
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/register' element={<RegisterPage />} />
+      </Routes>
+    </Router>
   );
 }
 
