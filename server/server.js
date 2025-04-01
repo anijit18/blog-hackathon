@@ -14,15 +14,11 @@ app.use(express.json());
 
 app.post('/', () => {
   res.send('working');
-});
-app.get('/user', (req, res) => {
-  res.send('working');
-});
+})
 
 app.put('/', () => {
   res.send('working');
-});
-//hello there
+})
 
 mongoose.connect(process.env.MONGO_URI,
      {
