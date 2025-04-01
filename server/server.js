@@ -14,11 +14,15 @@ app.use(express.json());
 
 app.post('/', () => {
   res.send('working');
-})
+});
 
 app.put('/', () => {
   res.send('working');
-})
+});
+
+app.delete('/', () => {
+  res.send('working');
+});
 
 mongoose.connect(process.env.MONGO_URI,
      {
