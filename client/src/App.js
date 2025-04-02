@@ -8,7 +8,7 @@ import AboutPage from './pages/About';
 
 function App() {
   return (
-   
+  
     <Router>
       <Routes>
         <Route path='/' element={<Layout />} >
@@ -19,6 +19,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+
   );
 }
 
