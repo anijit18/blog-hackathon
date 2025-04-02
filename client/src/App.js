@@ -5,6 +5,8 @@ import LoginPage from './pages/Login';
 import RegisterPage from './pages/Register';
 import Layout from './pages/Layout';
 import AboutPage from './pages/About';
+import ContactUs from './pages/Contactus';
+import React from 'react';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path='/login' element={<LoginPage />} />
           <Route path='/register' element={<RegisterPage />} />
           <Route path='/about' element={<AboutPage />} />
+          <Route path='/contact' element={<ContactUs />} />
         </Route>
       </Routes>
     </Router>

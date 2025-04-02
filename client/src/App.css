@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0e3458;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 nav {
-    background-color: #333;
+    background-color: #0e3458;
    padding: 1rem;
    margin-bottom:10px;
 }
@@ -83,7 +83,7 @@ nav {
 
 
 nav {
-  background-color: #333; /* Dark background */
+  background-color: #0e3458; /* Dark background */
   padding: 15px 0;
   text-align: center;
 }
@@ -121,7 +121,7 @@ nav {
   margin: 50px auto;
   
   padding: 30px;
-  background: #222;
+  background: #0e3458;
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -172,7 +172,7 @@ nav {
   max-width: 350px;
   margin: 50px auto;
   padding: 30px;
-  background: #222;
+  background: #0e3458;
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -213,4 +213,74 @@ nav {
 
 .input-field:focus {
   border: 2px solid #ffcc00;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #0e3458;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-field, .contact-button {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Input styling */
+.input-field {
+  padding-right: 0px;
+  background: #444;
+  color: white;
+  outline: none;
+}
+
+/* Button styling */
+.contact-button {
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Hover & Focus Effects */
+.contact-button:hover {
+  background: #ffaa00;
+}
+
+.input-field:focus {
+  border: 2px solid #ffcc00;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.carousel-slider {
+  width: 75%;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-image {
+  width: 100%;
 }

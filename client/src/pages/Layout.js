@@ -9,6 +9,8 @@ export default function Layout() {
             <li className="list"><Link to="/about">About</Link></li>
             <li className="list"><Link to="/login">Login</Link></li>
             <li className="list"><Link to="/register">Register</Link></li>
+            <li className="list"><Link to="/contact">Contact</Link></li>
+
         </ul>
         </nav>
 
